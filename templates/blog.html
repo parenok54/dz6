@@ -1,0 +1,170 @@
+{% extends 'include/homepage.html' %}
+{% load static %}
+{% block content %}
+
+	<!-- Container -->
+	<div id="container">
+
+		<!-- Header
+		    ================================================== -->
+		{% include 'include/header.html' %}
+		<!-- End Header -->
+
+		<!-- blog-section 
+			================================================== -->
+		<section class="blog-section">
+			<div class="container">
+				<div class="blog-box">
+					<div class="blog-post">
+						<img src="{% static 'upload/blog/1.jpg' %}" alt="">
+						<h2><a href="{% url 'single_post' %}">Aliquam erat volutpat.</a></h2>
+						<ul class="post-meta">
+							<li>
+								<a href="#">December 16, 2015</a>
+							</li>
+							<li>
+								<a href="#">Food</a>
+							</li>
+							<li>
+								<a href="#">3 comments</a>
+							</li>
+						</ul>
+						<p>Proin facilisis varius nunc. Curabitur eros risus, ultrices et dui ut, luctus accumsan nibh. Fusce convallis sapien placerat tellus suscipit vehicula. Cras vitae diam ut justo elementum faucibus eget a diam. Etiam sodales a sem vitae fermentum. </p>
+						<ul class="share-post">
+							<li><a class="facebook" href="#"><i class="fa fa-facebook"></i></a></li>
+							<li><a class="twitter" href="#"><i class="fa fa-twitter"></i></a></li>
+							<li><a class="google" href="#"><i class="fa fa-google-plus"></i></a></li>
+							<li><a class="pinterest" href="#"><i class="fa fa-pinterest"></i></a></li>
+						</ul>
+					</div>
+					<div class="blog-post">
+						<div class="row">
+							<div class="col-md-6">
+								<img src="{% static 'upload/blog/2.jpg' %}" alt="">
+							</div>
+							<div class="col-md-6">
+								<img src="{% static 'upload/blog/3.jpg' %}" alt="">
+							</div>
+						</div>
+						<h2><a href="{% url 'single_post' %}">Nam dui mi, tincidunt quis, accumsan porttitor.</a></h2>
+						<ul class="post-meta">
+							<li>
+								<a href="#">December 16, 2015</a>
+							</li>
+							<li>
+								<a href="#">Food</a>
+							</li>
+							<li>
+								<a href="#">2 comments</a>
+							</li>
+						</ul>
+						<p>Proin facilisis varius nunc. Curabitur eros risus, ultrices et dui ut, luctus accumsan nibh. Fusce convallis sapien placerat tellus suscipit vehicula. Cras vitae diam ut justo elementum faucibus eget a diam. Etiam sodales a sem vitae fermentum. </p>
+						<ul class="share-post">
+							<li><a class="facebook" href="#"><i class="fa fa-facebook"></i></a></li>
+							<li><a class="twitter" href="#"><i class="fa fa-twitter"></i></a></li>
+							<li><a class="google" href="#"><i class="fa fa-google-plus"></i></a></li>
+							<li><a class="pinterest" href="#"><i class="fa fa-pinterest"></i></a></li>
+						</ul>
+					</div>
+					<div class="blog-post">
+						<!-- Vimeo -->
+						<iframe class="videoembed" src="http://player.vimeo.com/video/75736121?title=0&amp;byline=0&amp;portrait=0"></iframe>
+						<!-- End Vimeo -->
+						<h2><a href="{% url 'single_post' %}">Phasellus ultrices nulla quis nibh.</a></h2>
+						<ul class="post-meta">
+							<li>
+								<a href="#">December 16, 2015</a>
+							</li>
+							<li>
+								<a href="#">Food</a>
+							</li>
+							<li>
+								<a href="#">2 comments</a>
+							</li>
+						</ul>
+						<p>Proin facilisis varius nunc. Curabitur eros risus, ultrices et dui ut, luctus accumsan nibh. Fusce convallis sapien placerat tellus suscipit vehicula. Cras vitae diam ut justo elementum faucibus eget a diam. Etiam sodales a sem vitae fermentum. </p>
+						<ul class="share-post">
+							<li><a class="facebook" href="#"><i class="fa fa-facebook"></i></a></li>
+							<li><a class="twitter" href="#"><i class="fa fa-twitter"></i></a></li>
+							<li><a class="google" href="#"><i class="fa fa-google-plus"></i></a></li>
+							<li><a class="pinterest" href="#"><i class="fa fa-pinterest"></i></a></li>
+						</ul>
+					</div>
+					<div class="blog-post">
+						<h2><a href="{% url 'single_post' %}">Nulla vitae mauris non felis mollis faucibus.</a></h2>
+						<ul class="post-meta">
+							<li>
+								<a href="#">December 16, 2015</a>
+							</li>
+							<li>
+								<a href="#">Food</a>
+							</li>
+							<li>
+								<a href="#">2 comments</a>
+							</li>
+						</ul>
+						<p>Proin facilisis varius nunc. Curabitur eros risus, ultrices et dui ut, luctus accumsan nibh. Fusce convallis sapien placerat tellus suscipit vehicula. Cras vitae diam ut justo elementum faucibus eget a diam. Etiam sodales a sem vitae fermentum. </p>
+						<ul class="share-post">
+							<li><a class="facebook" href="#"><i class="fa fa-facebook"></i></a></li>
+							<li><a class="twitter" href="#"><i class="fa fa-twitter"></i></a></li>
+							<li><a class="google" href="#"><i class="fa fa-google-plus"></i></a></li>
+							<li><a class="pinterest" href="#"><i class="fa fa-pinterest"></i></a></li>
+						</ul>
+					</div>
+					<div class="blog-post">
+						<div class="flexslider">
+							<ul class="slides">
+								<li>
+									<img alt="" src="{% static 'upload/blog/4.jpg' %}" />
+								</li>
+								<li>
+									<img alt="" src="{% static 'upload/blog/5.jpg' %}" />
+								</li>
+								<li>
+									<img alt="" src="{% static 'upload/blog/6.jpg' %}" />
+								</li>
+							</ul>
+						</div>
+						<h2><a href="{% url 'single_post' %}">Donec Odio.</a></h2>
+						<ul class="post-meta">
+							<li>
+								<a href="#">December 16, 2015</a>
+							</li>
+							<li>
+								<a href="#">Food</a>
+							</li>
+							<li>
+								<a href="#">2 comments</a>
+							</li>
+						</ul>
+						<p>Proin facilisis varius nunc. Curabitur eros risus, ultrices et dui ut, luctus accumsan nibh. Fusce convallis sapien placerat tellus suscipit vehicula. Cras vitae diam ut justo elementum faucibus eget a diam. Etiam sodales a sem vitae fermentum. </p>
+						<ul class="share-post">
+							<li><a class="facebook" href="#"><i class="fa fa-facebook"></i></a></li>
+							<li><a class="twitter" href="#"><i class="fa fa-twitter"></i></a></li>
+							<li><a class="google" href="#"><i class="fa fa-google-plus"></i></a></li>
+							<li><a class="pinterest" href="#"><i class="fa fa-pinterest"></i></a></li>
+						</ul>
+					</div>
+					<div class="pagination-box">
+						<ul class="page-list">
+							<li><a class="prev" href="#"><i class="fa fa-angle-left"></i>prev</a></li>
+							<li><a class="active" href="#">1</a></li>
+							<li><a href="#">2</a></li>
+							<li><a href="#">3</a></li>
+							<li><a class="next" href="#">next <i class="fa fa-angle-right"></i></a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- End blog section -->
+
+		<!-- footer 
+			================================================== -->
+		{% include 'include/footer.html' %}
+		<!-- End footer -->
+
+	</div>
+	<!-- End Container -->
+
+	{% endblock %}
